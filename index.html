@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Jenny Lin</title>
+		<style>
+
+/* CSS Here */
+body {
+	margin:0;
+	padding:0;
+}
+.site-title{
+	float:left;
+	margin:0px;
+	padding:6px;
+	line-height:60px;
+}
+.site-nav {
+	text-align:right;
+	display:block;
+	float:right;
+	margin:0px;
+	padding:6px;
+	line-height:60px;
+}
+.wrapper {
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	padding:0;
+	display:block;
+}
+.page-link:not(:last-child) {
+	padding-right:5px;
+}
+.figure-right {
+	display: block;
+	float: right;
+}
+.section-head {
+	background:honeydew;
+	margin:0;
+	padding:6px;
+}
+.publication {
+	display:block;
+	position:relative;
+	padding:0 0 0 270px;
+	min-height:200px;
+}
+.thumbnail{
+	display:block;
+	position:absolute;
+	width:240px;
+	height:200px;
+	top:0;
+	left:10px;
+}
+.thumbnail > img{
+	max-width:100%; 
+	max-height:100%;
+}
+
+.title {
+}
+.authors {
+	display:flex;
+	flex-flow:row wrap;
+}
+.conference {
+}
+.award {
+	font-weight:bold;
+}
+.links li{
+	list-style:none;
+	display:inline;
+	padding-right:3px;
+}
+
+.footer {
+	height:60px;
+}
+		</style>
+	</head>
+	<body>
+				<div style="background:mistyrose" class="wrapper"><header><h1 class=site-title>Jenny Lin</h1> <nav class="site-nav"><a class="page-link" href="jenny-cv.pdf">CV</a> <a class="page-link" href="#publications">Publications</a>  <a class="page-link" href="#teaching">Teaching</a> <a class="page-link" href="#service">Service</a> </nav></header></div>
+		<div class="wrapper">
+		<h2 id="bio" class="section-head">About Me</h2>
+		 <figure class="figure-right">
+			 <img src="me.jpg" alt="Jenny Lin in front of a serviceberry tree" style="width:200px">
+			 <figcaption>jennylin at cs dot cmu dot edu<br>EDSH (Smith Hall) 234</figcaption>
+		 </figure>
+		 <p>I'm a PhD Candidate in Carnegie Mellon University's Computer Science Department, advised by <a href="http://www.cs.cmu.edu/~jmccann/">James McCann</a>. Prior to that I got my B.E. in Computer Science and Molecular Biology at MIT. My research is focused on computational fabrication, with a particular interest in low-level computer representations that advance our understanding of real world phenomenon.</p>
+		 <p>I'll be going on the job market in Fall 2023, so keep an eye on this space for application materials. Until then, you can look at my <a href="jenny-cv.pdf">CV</a>.</p>
+
+		</div>
+		<div class="wrapper">
+		<h2 id="publications" class="section-head">Select Publications</h2>
+		<ul>
+			<li class="publication"><a href="https://textiles-lab.github.io/publications/2023-knitout-semantics/">
+					<div class="thumbnail"><img src="2023_formal_knitout.png"></div><h3 class="title">Semantics and Scheduling for Machine Knitting Compilers</h3></a>
+				<div class="authors">Jenny Lin, Vidya Naraynan, Yuka Ikarashi, Jonathan Ragan-Kelley, Gilbert Bernstein, and James McCann</div><div class="conference"> ACM Transactions on Graphics (SIGGRAPH '23)</div>
+				<ul class="links"><li><a href="https://textiles-lab.github.io/publications/2023-knitout-semantics/">[project page]</a></li><li><a href="https://drive.google.com/file/d/1uncwmQLjWPVhb-C-Wwe5Pf3ZoD_Q3d4O/view">[pdf]</a></li></ul>
+			</li>
+			<li class="publication"><a href="https://textiles-lab.github.io/publications/2021-braid-transfer-plan/">
+					<div class="thumbnail"><img src="2021_artin_rep.png"></div><h3 class="title">An Artin Braid Group Representation of Knitting Machine State with Applications to Validation and Optimization of Fabrication Plans</h3></a>
+				<div class="authors">Jenny Lin and James McCann</div><div class="conference"> IEEE International Conference on Robatics and Automation (ICRA '21)</div>
+				<div class="award">Finalist for Best Conference Paper</div>
+				<ul class="links"><li><a href="https://textiles-lab.github.io/publications/2021-braid-transfer-plan/">[project page]</a></li><li><a href="https://dl.acm.org/doi/10.1109/ICRA48506.2021.9562113">[acm]</a></li><li><a href="https://drive.google.com/open?id=1RetBDkhJobITTt0eh4vVvyJ1GSeQL5wR">[pdf]</a></li></ul>
+			</li>
+			<li class="publication"><a href="https://textiles-lab.github.io/publications/2020-crochet-meshes/">
+					<div class="thumbnail"><img src="2020_crochet.png"></div><h3 class="title">Representing Crochet with Stitch Meshes</h3></a>
+				<div class="authors">Michelle Guo, Jenny Lin, Vidya Narayanan, and James McCann</div><div class="conference"> ACM Symposium on Computational Fabrication (SCF '20)</div>
+				<ul class="links"><li><a href="https://textiles-lab.github.io/publications/2020-crochet-meshes/">[project page]</a></li><li><a href="https://dl.acm.org/doi/10.1145/3424630.3425409">[acm]</a></li><li><a href="https://drive.google.com/file/d/144ngzg6L2j-bhTa1KJNqAM05w83pjl4o/view">[pdf]</a></li></ul>
+			</li>
+
+			<li class="publication"><a href="https://textiles-lab.github.io/publications/2018-flat-xfer-plan/">
+					<div class="thumbnail"><img src="2018_flat_xfer.png"></div><h3 class="title">Efficient Transfer Planning for Flat Knitting</h3></a>
+				<div class="authors">Jenny Lin, Vidya Narayanan, and James McCann</div><div class="conference"> ACM Symposium on Computational Fabrication (SCF '18)</div>
+
+				<ul class="links"><li><a href="https://textiles-lab.github.io/publications/2018-flat-xfer-plan/">[project page]</a></li><li><a href="https://dl.acm.org/doi/10.1145/3213512.3213515">[acm]</a></li><li><a href="https://drive.google.com/open?id=18vG0r9QOS3atL5PABGysdzCMV7xKoKVi">[pdf]</a></li></ul>
+			</li>
+			<li class="publication"><a href="https://arxiv.org/pdf/1704.00112.pdf">
+					<div class="thumbnail"><img src="2018_scene_synth.png"></div><h3 class="title">Configurable 3D Scene Synthesis and 2D Image Rendering with Per-Pixel Ground Truth using Stochastic Grammars</h3></a>
+				<div class="authors">Chenfanfu Jiang, Siyuan Qi, Yixin Zhu, Siyuan Huang, Jenny Lin, Lap-Fai Yu, Demetri Terzopoulos, and Song-Chun Zhu</div><div class="conference"> In International Journal of Computer Vision (IJCV '18)</div>
+				<ul class="links"><li><a href="https://dl.acm.org/doi/10.1007/s11263-018-1103-5">[acm]</a></li><li><a href="https://arxiv.org/pdf/1704.00112.pdf">[pdf]</a></li></ul>
+			</li>
+			<li class="publication"><a href="http://www.stat.ucla.edu/~sczhu/papers/Conf_2017/CogSci_2017_Reverse_Hands.pdf">
+					<div class="thumbnail"> </div><h3 class="title">Visuomotor Adaptation and Sensory Recalibration in Reversed Hand Movement Task</h3></a>
+				<div class="authors">Jenny Lin, James Kubricht, Yixin Zhu, Song-Chun Zhu, and Hongjing Lu</div><div class="conference">In 39th Annual Meeting of the Cognitive Science Society (CogSci '17)</div>
+				<ul class="links"><li><a href="http://www.stat.ucla.edu/~sczhu/papers/Conf_2017/CogSci_2017_Reverse_Hands.pdf">[pdf]</a></li></ul>
+
+		</div>
+		<div class="wrapper">
+		<h2 id="teaching" class="section-head">Teaching</h2>
+		<p> I served as TA for CMU's Computational Photography class in Fall of 2020 and 2021. In addition to running office hours and grading assignments, I converted existing course assignments from MATLAB to Python. I've also been a guest lecturer for the Algorithm Textiles course at CMU (2019 & 2021) and the E-Textiles course at University of Washington (2021), where I taught students how to write transfer plans for machine knitting programs. </p>
+		</div>
+
+		<div class="wrapper">
+		<h2 id="service" class="section-head">Service</h2>
+		<p> In Spring 2020 I taught a class on wallpaper groups for <a href="https://www.cmu.edu/scs/technights/index.html">TechNights</a>, a CMU program aimed at introducing STEM concepts to middle school girls. Furthermore, I've co-run Knitout Office Hours (KOOH) since Fall of 2018, where the Textiles Lab provides knitting machine access and instruction to the greater CMU community. If you're interested in learning to machine knit, email me or <a href="http://www.cs.cmu.edu/~jmccann/">James McCann</a> for information about current hours.</p>
+
+		<p> From 2019-2022 I served as a chair on the organizing committee for <a href="http://sigbovik.org/">SIGBOVIK</a>, a serious conference about 100% serious computer science adjacent research where many young researchers get their first taste of academic writing (actually serious). Notably, I made <a href="http://sigbovik.org/2019">SIGBOVIK 2019's website</a>, which was voted website of the year by at least one person that was not me. </p>
+		</div>
+
+		<div class="wrapper"><div class="footer"></div></div>
+	</body>
+</html>
